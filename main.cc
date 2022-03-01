@@ -6,7 +6,7 @@ int player() {
     dsaf
     asf
     sdf
-    asdf
+    
     sd
     
     return 0;
