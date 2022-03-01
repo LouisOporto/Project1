@@ -1,13 +1,8 @@
-int player() {
-  blah blah bloah
-    
-    asdfasd
-    f
-    dsaf
-    asf
-    sdf
-    asdf
-    sd
-    
-    return 0;
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+  return 0;
 }
