@@ -1,5 +1,5 @@
 void p_projectile() {
-  graphics::Image p_projectile (5, 5)
+  graphics::Image p_projectile(5, 5);
   
-  p_projectile.SaveImageBmp(p_projectile.bmp)
+  p_projectile.SaveImageBmp(p_projectile.bmp);
 }
