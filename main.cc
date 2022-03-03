@@ -20,3 +20,4 @@ int main() {
    std::cin >> o_projectile;
    
 return 0;
+}
