@@ -1,13 +1,5 @@
-
-
-#include <iostream>
-
-using namespace std;
-
-
-
+void player(){
+  graphics::Image player(50, 50)
+  
+  player.SaveImageBmp(player.bmp)
 }
-   
-  int main() {
-
-  return 0;
