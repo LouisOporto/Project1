@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 #include "cpputils/graphics/image.h"
 //Add the void functions into here for all four void functions //
