@@ -9,15 +9,15 @@ int main() {
    p_projectile();
    o_projectile();
    
-   std::string player_input, opponent_input, p_projectile, o_projectile;
+   std::string player_, opponent_, p_projectile_, o_projectile_;
    std::cout << "Please provide player image file name: ";
-   std::cin >> player_input;
+   std::cin >> player_input_;
    std::cout << "Please provide opponent image filename: ";
-   std::cin >> opponent_input;
+   std::cin >> opponent_input_;
    std::cout << "Please provide player projectile image filename: ";
-   std::cin >> p_projectile;
+   std::cin >> p_projectile_;
    std::cout << "Please provide opponent projectile image filename ";
-   std::cin >> o_projectile;
+   std::cin >> o_projectile_;
    
 return 0;
 }
