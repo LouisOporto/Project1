@@ -6,8 +6,8 @@
 int main() {
    player();
    opponent();
-   player_projectile();
-   opponent_projectile();
+   p_projectile();
+   o_projectile();
    
    std::string player_input, opponent_input, p_projectile, o_projectile;
    std::cout << "Please provide player image file name: ";
