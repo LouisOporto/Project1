@@ -1,4 +1,4 @@
-void player(){
+void player(std::string input){
   graphics::Image player(50, 50);
   player.DrawPolygon ({20, 32, 22, 28, 12, 22, 10, 26}, 71, 69, 69);
   player.DrawPolygon ({30, 32, 28, 28, 38, 22, 40, 26}, 71, 69, 69);
@@ -13,5 +13,5 @@ void player(){
   player.DrawRectangle (27, 5, 1, 4, 116, 42, 42);
   player.DrawRectangle (20, 41, 11, 1, 53, 194, 202);
   player.DrawRectangle (20, 42, 11, 1, 69, 235, 244);
-  player.SaveImageBmp("player.bmp");
+  player.SaveImageBmp(input);
 }
