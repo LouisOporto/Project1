@@ -18,6 +18,5 @@ int main() {
    std::cout << "Please provide opponent projectile image filename: ";
    std::cin >> o_projectile_;
    o_projectile(o_projectile_);
-   
 return 0;
 }
