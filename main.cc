@@ -1,5 +1,5 @@
-void o_projectile() {
+void o_projectile(std::string input) {
   graphics::Image o_projectile (5, 5);
   
-  o_projectile.SaveImageBmp("o_projectile.bmp");
+  o_projectile.SaveImageBmp(input);
   
