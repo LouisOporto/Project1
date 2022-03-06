@@ -1,9 +1,6 @@
 void p_projectile(std::string input) {
-  graphics::Image p_projectile(50, 50);
-  p_projectile.DrawLine( 23, 32, 23, 18, 255,  0, 0, 3);//outside
-  p_projectile.DrawLine( 27, 32, 27, 18, 255,  0, 0, 3);//outside
-  p_projectile.DrawLine( 24, 32, 24, 18, 255,  102, 102, 2);//inside
-  p_projectile.DrawLine( 26, 32, 26, 18, 255,  102, 102, 2);//inside
-  p_projectile.DrawLine( 25, 32, 25, 18, 255,  204, 204, 1);//inner
+  graphics::Image p_projectile(5, 5);
+ p_projectile.DrawLine( 1, 4, 1, 0, 255,  0, 0, 1);//outside
+  p_projectile.DrawLine( 3, 4, 3, 0, 255,  0, 0, 1);//outside
   p_projectile.SaveImageBmp(input);
 }
