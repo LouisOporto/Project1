@@ -1,4 +1,4 @@
-void o_projectile_() {
+void o_projectile(input) {
  graphics::Image oProjectile(10, 10);
   oProjectile.DrawRectangle(0, 0, 2, 1, 102, 0, 0);
   oProjectile.DrawRectangle(0, 1, 3, 1, 102, 0, 0);
@@ -18,5 +18,5 @@ void o_projectile_() {
   oProjectile.DrawRectangle(7, 8, 3, 1, 102, 0, 0);
   oProjectile.DrawRectangle(0, 9, 2, 1, 102, 0, 0);
   oProjectile.DrawRectangle(8, 9, 2, 1, 102, 0, 0);
-  oProjectile.SaveImageBmp("opponent_projectile_.bmp");
+  oProjectile.SaveImageBmp(input);
 }
