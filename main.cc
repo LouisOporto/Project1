@@ -2,7 +2,8 @@
 #include <string>
 
 #include "cpputils/graphics/image.h"
-//Add the void functions into here for all four void functions //
+
+//Player Void
 void player(std::string input){
   graphics::Image player(50, 50);
   player.DrawPolygon ({20, 32, 22, 28, 12, 22, 10, 26}, 71, 69, 69);
@@ -19,6 +20,13 @@ void player(std::string input){
   player.DrawRectangle (20, 41, 11, 1, 53, 194, 202);
   player.DrawRectangle (20, 42, 11, 1, 69, 235, 244);
   player.SaveImageBmp(input);
+}
+//Player Projectile Void
+void p_projectile(std::string input) {
+  graphics::Image p_projectile(5, 5);
+ p_projectile.DrawLine( 1, 4, 1, 0, 255,  0, 0, 1);//outside
+  p_projectile.DrawLine( 3, 4, 3, 0, 255,  0, 0, 1);//outside
+  p_projectile.SaveImageBmp(input);
 }
 
 int main() {
