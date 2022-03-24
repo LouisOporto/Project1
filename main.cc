@@ -125,7 +125,6 @@ void o_projectile(input) {
   oProjectile.DrawRectangle(8, 9, 2, 1, 102, 0, 0);
   oProjectile.SaveImageBmp(input);
 }
-}
 
 int main() {
    std::string player_, opponent_, p_projectile_, o_projectile_;
