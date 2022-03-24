@@ -107,7 +107,7 @@ void opponent(std::string input) {
   opponent.DrawLine(13, 17, 13, 19, 255, 255, 255, 1);
   opponent.SaveImageBmp(input);
 }
-
+// Opponent Projectile
 void o_projectile(std::string input) {
   graphics::Image oProjectile(5, 5);
   oProjectile.DrawLine(2, 0, 0, 4, 255,  10, 10, 1);
@@ -115,6 +115,7 @@ void o_projectile(std::string input) {
   oProjectile.DrawLine(2, 1, 1, 4, 102, 0, 0, 1);
   oProjectile.DrawLine(2, 1, 3, 4, 102, 0, 0, 1);
   oProjectile.SaveImageBmp(input);
+}
 
 int main() {
   std::string player_, opponent_, p_projectile_, o_projectile_;
